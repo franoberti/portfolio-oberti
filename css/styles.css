@@ -99,12 +99,49 @@ body {
 }
 
 #fotoPerfil {
+    max-width: 80%;
     border-radius: 100%;
 }
 
 #fotoAboutMe {
     max-height: 30rem;
     border-radius: 50%;
+}
+
+@media screen and (max-width: 1000px){
+    
+    #intro1 {
+        font-size: 60px;
+    }
+    
+    #intro2 {
+        font-size: 15px;
+    }
+
+    #fotoAboutMe {
+        max-width: 80%;
+    }
+
+}
+
+@media screen and (max-width: 768px){
+    
+    #intro1 {
+        font-size: 40px;
+    }
+    
+    #intro2 {
+        font-size: 13px;
+    }
+
+}
+
+@media screen and (max-width: 590px){
+    
+    #intro1 {
+        font-size: 30px;
+    }
+
 }
 
 /* ----------------------------------- End Index ------------------------------------ */
@@ -158,10 +195,12 @@ body {
 
 #parrafo p {
     margin-bottom: 0;
+    max-width: 80%;
 }
 
 #parrafo2 p {
     margin-bottom: 0;
+    max-width: 50%;
 }
 
 #parrafo2 {
