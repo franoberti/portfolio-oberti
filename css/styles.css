@@ -276,7 +276,7 @@ body {
 /* ---------------------------------------------------------------------------------- */
 
 .footer {
-    background-color: #739bfa !important;
+    background-color: #05254b !important;
 }
 
 .redes a {
@@ -300,6 +300,14 @@ body {
 
 .redes a.instagram {
     background-color: #ed4956;
+}
+
+#txtFooter {
+    color: #fefefe;
+}
+
+#celFooter {
+    color: #fefefe;
 }
 
 @media screen and (max-width: 1000px){
