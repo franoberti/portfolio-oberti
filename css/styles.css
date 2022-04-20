@@ -1,0 +1,230 @@
+body {
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+/* ---------------------------------------------------------------------------------- */
+/* --------------------------------------- HEADER ----------------------------------- */
+/* ---------------------------------------------------------------------------------- */
+
+#headerName {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+#itemMenu a {
+    font-size: 18px;
+    font-weight: bold;
+    color: #3f3f3f;
+}
+
+@media screen and (max-width: 500px){
+    
+    #headerName {
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+}
+
+
+/* ---------------------------------------------------------------------------------- */
+/* ----------------------------------- END HEADER ----------------------------------- */
+/* ---------------------------------------------------------------------------------- */
+
+
+
+
+/* ---------------------------------------------------------------------------------- */
+/* --------------------------------------- MAIN ------------------------------------- */
+/* ---------------------------------------------------------------------------------- */
+
+#titulo {
+    font-size: 6rem;
+    font-weight: 900;
+    color: #3f3f3f;
+}
+
+#sectionB {
+    background-color: #B6CBFC;
+}
+
+@media screen and (max-width: 1100px){
+    
+    #titulo {
+        font-size: 5rem;
+        font-weight: 900;
+        color: #3f3f3f;
+    }
+
+}
+
+@media screen and (max-width: 900px){
+    
+    #titulo {
+        font-size: 4rem;
+        font-weight: 900;
+        color: #3f3f3f;
+    }
+
+}
+
+@media screen and (max-width: 768px){
+    
+    #titulo {
+        font-size: 3rem;
+        font-weight: 900;
+        color: #3f3f3f;
+    }
+}
+
+@media screen and (max-width: 500px){
+    
+    #titulo {
+        font-size: 2.5rem;
+        font-weight: 900;
+        color: #3f3f3f;
+    }
+
+}
+
+/* --------------------------------------- Index ------------------------------------ */
+
+#intro1 {
+    font-size: 80px;
+    font-weight: 600;
+}
+
+#intro2 {
+    font-size: 20px;
+}
+
+#fotoPerfil {
+    border-radius: 100%;
+}
+
+#fotoAboutMe {
+    max-height: 30rem;
+    border-radius: 50%;
+}
+
+/* ----------------------------------- End Index ------------------------------------ */
+
+/* ------------------------------------ Experiencia --------------------------------- */
+
+.linea#linea1 {
+    padding: 3px;
+    margin-left: 5%;
+    width: 21%;
+    background-color: #4b9197 !important;
+    display: inline-block;
+}
+
+.linea {
+    padding: 3px;
+    width: 21%;
+    background-color: #4b9197 !important;
+    display: inline-block;
+    position: relative;
+    right: 5px;
+}
+
+.circulo {
+    height: 15px;
+    width: 15px;
+    background-color: #4b9197;
+    margin-bottom: 12px;
+    display: inline-block;
+    position: relative;
+    right: 5px;
+    border-radius: 50%;
+}
+
+
+#linea1B {
+    padding: 3px;
+    margin-left: 5%;
+    width: 21%;
+    background-color: aliceblue !important;
+    display: inline-block;
+}
+
+#B {
+    background-color: aliceblue !important;
+}
+
+#parrafo {
+    margin-top: 30px;
+}
+
+#parrafo p {
+    margin-bottom: 0;
+}
+
+#parrafo2 p {
+    margin-bottom: 0;
+}
+
+#parrafo2 {
+    padding-bottom: 40px;
+}
+
+.contenedorParrafos {
+    position: relative;
+    right: 25%;
+}
+
+
+@media screen and (max-width: 768px){
+    .linea {
+        width: 18%;
+    }
+
+    .linea#linea1 {
+        width: 18%;
+    }
+}
+
+
+/* -------------------------------- End Experiencia --------------------------------- */
+
+
+/* ---------------------------------------------------------------------------------- */
+/* ----------------------------------- END MAIN ------------------------------------- */
+/* ---------------------------------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------------------------------- */
+/* ----------------------------------- FOOTER --------------------------------------- */
+/* ---------------------------------------------------------------------------------- */
+
+.footer {
+    background-color: #739bfa !important;
+}
+
+.redes a {
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    display: inline-block;
+    color: #fefefe;
+    line-height: 60px;
+    text-align: center;
+    margin-right: 5px;
+}
+
+.redes a.facebook {
+    background-color: #3b5998;
+}
+
+.redes a.gmail {
+    background-color: #d93025;
+}
+
+.redes a.instagram {
+    background-color: #ed4956;
+}
+
+/* ---------------------------------------------------------------------------------- */
+/* ----------------------------------- END FOOTER ----------------------------------- */
+/* ---------------------------------------------------------------------------------- */
+
